@@ -6,4 +6,4 @@
 
 Overall, we’re looking at various stats about health and life insurance, and seeing how well we can predict state life expectancies. For more information, chekc out the project specifications folder
 
-The primary documents specified by the devlierbles section of the rubric will be held in this top level folder, and folders and generally named to by what they contain
+The primary documents specified by the deliverables section of the rubric will be held in this top level folder, as well as some other various aptly named files, and folders will generally be named by what they contain
