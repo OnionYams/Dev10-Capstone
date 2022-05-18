@@ -39,14 +39,12 @@ print("No Female Data normalized")
 print(normal_lin_reg.score(X1_test,y1_test))
 restricted_normal_coefficients_list=normal_lin_reg.coef_
 print(restricted_normal_coefficients_list)
-dump(normal_lin_reg,"Linear Regression Model.Model")
 print("--------")
 
 svr = SVR().fit(X1_train, y1_train)
 svr_predictions=svr.predict(X1_test)
 print("non-tuned SVR")
 print(svr.score(X1_test,y1_test))
-dump(svr,"SVR Model.model")
 print("--------")
 
 
@@ -63,7 +61,6 @@ print("No Female Data SVR")
 print(svr_tuned.best_params_)
 svr_restricted_predictions=svr_tuned.predict(X1_test)
 print(svr_tuned.score(X1_test,y1_test))
-dump(svr_tuned,"Tuned SVR Model.model")
 print("--------")
 
 LE_demographic_Data_pandas=Model_Data[["Male","White","Black or African American","American Indian and Alaska Native","Asian","Native Hawaiian and other Pacific Islander","Other","Multiracial","Hispanic or Latino","Life Expectancy"]]
@@ -81,14 +78,12 @@ print("normal demo only")
 print(normal_demo_score)
 demographic_normal_coefficients_list=demographic_lin_reg.coef_
 print(demographic_normal_coefficients_list)
-dump(demographic_lin_reg,"Linear Regression with only Demographing Data.model")
 print("--------")
 
 demographic_svr = SVR().fit(X2_train, y2_train)
 svr_predictions=demographic_svr.predict(X2_test)
 print("non-tuned SVR")
 print(demographic_svr.score(X2_test,y2_test))
-dump(demographic_svr,"SVR Model with only Demographic Data.model")
 print("--------")
 
 svr_demographic_param_grid = {'C': [ 10,11,12,13,14,15], 
@@ -103,5 +98,17 @@ print("demo only SVR")
 print(demographic_svr_tuned.best_params_)
 svr_demographic_predictions=demographic_svr_tuned.predict(X2_test)
 print(demographic_svr_tuned.score(X2_test,y2_test))
-dump(demographic_svr_tuned,"Tuned SVR Model with only Demographic Data.model")
 print("--------")
+
+
+print(y1_test.equals(y2_test))
+
+
+
+
+#dump(normal_lin_reg,"Linear Regression Model.Model")
+#dump(svr,"SVR Model.model")
+#dump(svr_tuned,"Tuned SVR Model.model")
+#dump(demographic_lin_reg,"Linear Regression with only Demographing Data.model")
+#dump(demographic_svr,"SVR Model with only Demographic Data.model")
+#dump(demographic_svr_tuned,"Tuned SVR Model with only Demographic Data.model")
