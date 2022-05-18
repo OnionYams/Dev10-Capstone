@@ -8,4 +8,4 @@ Overall, we’re looking at various stats about health and life insurance, and s
 
 The primary documents specified by the deliverables section of the rubric will be held in this top level folder, as well as some other various aptly named files, and folders will generally be named by what they contain
 
-The ERDs are contained with the data platform file
+This repository is still a work in progress
