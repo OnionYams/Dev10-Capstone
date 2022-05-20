@@ -12,4 +12,4 @@ The Project Specifications folder contains a copy of the Project mangagement pla
 
 The code folder contains some copies of our machine learning model, SQL scripts that we used to create tables in our Azure SQL Database, and the automated code for getting our web data and performing the Kafka Consumer-Producer flow int bgl2-auto, as well as a few other Jupyter notebooks that were used to clean and create the various machine learning models found in the folder
 
-
+For those with access, the database we used is boogaloo-capstone-human-life, and the data factory is boogaloo2-capstone
