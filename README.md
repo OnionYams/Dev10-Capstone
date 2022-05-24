@@ -4,7 +4,9 @@
 ### Group Members: Alex, Isaac, Will, Yansong
 ### Topic Category: Finance and Insurance
 
-Overall we’re looking at various stats about health and life insurance, and seeing how well we can predict life expectancies. For more information, check out the project specifications folder
+Since all of our group members will be working at Northwestern Mutual, a large life insurance company, our primary goal was to learn more about this industry so that we're better prepared to work there. In doing so, we looked various stats about life insurance, such as why people do or do not buy life insurance and how many Americans have life insurance coverage among other things, compared some of these to the fairly similar field of health insurance, and made some visualizations to showcase our findings. Additionally, we found information on the costs of life insurance coverage, and looked into state life expectancies in the US to give some context as to why the prices changed as they did. We then tried create a machine learing model of our own to predict life expectancies based on the data that we found with middling results. Based on our model, the primary things determining life expectancy were not any sorts of demographic data, but rather median income and health insurance coverage, which isn't necessarily in line with conventional knowledge. For more information on our project and why it resulted in the way that it did, check out the Project Technical Report.
+
+
 
 The primary documents specified by the deliverables section of the rubric will be held in this top level folder, along with the ERD diagram, PowerBI report and readme.
 
