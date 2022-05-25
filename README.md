@@ -6,7 +6,7 @@ Our team wanted to learn more about life insurance, so we looked into various st
 
 
 
-The primary documents for this project are found in the [main_project_files](main_project_files) folder, including a [PowerBI report](Boogaloo-Capstone-Visualizations.pbix), a [Powerpoint presentation](CapstonePresentationSlides.pdf), and a [Technical Report](ProjectTechnicalReport.pdf) that summarize our findings.
+The primary documents for this project are found in the [main_project_files](main_project_files) folder, including a [PowerBI report](Boogaloo-Capstone-Visualizations.pbix), a [Powerpoint presentation](CapstonePresentationSlides.pdf), and a [Technical Report](ProjectTechnicalReport.pdf) that summarize our findings, as well as various other files such as an [ETL report](RepeatableETLReport.pdf) documenting the process we went through to obtain the data that we used.
 
 Below is an image of a dashboard we made that also summarizes some of our findings
 ![image](https://user-images.githubusercontent.com/96456679/170359966-688409ab-9497-404b-a72f-7f3f128101b7.png)
