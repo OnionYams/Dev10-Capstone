@@ -1,6 +1,6 @@
 # Dev10-Capstone
 
-### Group Members: Alex, Isaac, Will, Yansong
+### Group Members: Alex Mora, Isaac Lee, Will Stearns, Yansong Tang
 
 Our team wanted to learn more about life insurance, so we looked into various stats about it, such as why people do or do not buy life insurance and how many Americans have life insurance coverage among other things, compared some of these to the fairly similar field of health insurance, and made some visualizations to showcase our findings. Additionally, we found information on the costs of life insurance coverage, and looked into state life expectancies in the US to give some context as to why the prices changed as they did. We then tried create a machine learing model of our own to predict life expectancies based on the data that we found with middling results. Based on our model, the primary things determining life expectancy were not any sorts of demographic data, but rather median income and health insurance coverage, which isn't necessarily in line with conventional knowledge. For more information on our project and why it resulted in the way that it did, check out the Project Technical Report.  
 
