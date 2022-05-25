@@ -6,7 +6,7 @@ Since all of our group members will be working at Northwestern Mutual, a large l
 
 
 
-The primary documents for this project are found in the [main_project_files](main_project_files) folder, including a [PowerBI report](Boogaloo Capstone Visualizations.pbix), a [Powerpoint presentation](CapstonePresentationSlides.pdf), and a [Technical Report](ProjectTechnicalReport.pdf).
+The primary documents for this project are found in the [main_project_files](main_project_files) folder, including a [PowerBI report]('Boogaloo Capstone Visualizations.pbix'), a [Powerpoint presentation](CapstonePresentationSlides.pdf), and a [Technical Report](ProjectTechnicalReport.pdf).
 
 The Project Specifications folder contains a copy of the Project mangagement plan, an executive summary of the project, the Dataflow/Data Platform diagram, an erd of our tables and the various sources we used.
 
